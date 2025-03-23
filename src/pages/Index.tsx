@@ -1,9 +1,8 @@
-
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import Navbar from "@/components/layout/Navbar";
-import { CheckCircle, Shield, LineChart, Zap, Code } from "lucide-react";
+import { CheckCircle, Shield, LineChart, Zap, Code, Clock } from "lucide-react";
 
 // Animated gradient backgrounds
 const GradientBackground = () => {
@@ -481,3 +480,4 @@ function Clock(props: any) {
 }
 
 export default Index;
+
